@@ -23,7 +23,7 @@ pipeline {
 										  type: 'war'
 								    ]
 							], 
-				      			credentialsId: '7838',
+				      			credentialsId: 'fc27c52e-aa44-4578-8490-c50aafc2b72e',
 				      			groupId: 'com.jdevs',
 				      			nexusUrl: '52.185.71.174:8081',
 				      			nexusVersion: 'nexus3',
