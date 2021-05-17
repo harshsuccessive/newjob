@@ -19,7 +19,7 @@ pipeline {
 							         [
 									      artifactId: 'samplesnap',
 										  classifier: '',
-										  file: "/var/lib/jenkins/workspace/sampletest/target/samplesnap-${mavenPom.version}.war",
+										  file: "/var/lib/jenkins/workspace/Nexus-job/target/maven-snapshots-${mavenPom.version}.war",
 										  type: 'war'
 								    ]
 							], 
