@@ -23,13 +23,13 @@ pipeline {
 										  type: 'war'
 								    ]
 							], 
-							credentialsId: '91b4626f-4b03-46dd-90b4-49bd67fcc344',
-							groupId: 'com.jdevs',
-							nexusUrl: '52.185.71.174:8081',
-							nexusVersion: 'nexus3',
-							protocol: 'http',
-							repository: 'maven-snapshots',
-							version: "${mavenPom.version}"
+				      			credentialsId: '7838',
+				      			groupId: 'com.jdevs',
+				      			nexusUrl: '52.185.71.174:8081',
+				      			nexusVersion: 'nexus3',
+				      			protocol: 'http',
+				      			repository: 'maven-snapshots',
+				      			version: "${mavenPom.version}"
 						 }
 							}
                     }
